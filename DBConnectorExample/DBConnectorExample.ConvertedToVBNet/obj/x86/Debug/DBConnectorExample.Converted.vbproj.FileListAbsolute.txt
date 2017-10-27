@@ -1,0 +1,8 @@
+C:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample.ConvertedToVBNet\bin\Debug\DBConnectorExample.rxtmg
+C:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample.ConvertedToVBNet\bin\Debug\DBConnectorExample.rxtst
+C:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample.ConvertedToVBNet\bin\Debug\DBConnectorExample.exe.config
+C:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample.ConvertedToVBNet\bin\Debug\DBConnectorExample.exe
+C:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample.ConvertedToVBNet\bin\Debug\DBConnectorExample.pdb
+C:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample.ConvertedToVBNet\obj\x86\Debug\DBConnectorExample.Converted.vbprojResolveAssemblyReference.cache
+C:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample.ConvertedToVBNet\obj\x86\Debug\DBConnectorExample.exe
+C:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample.ConvertedToVBNet\obj\x86\Debug\DBConnectorExample.pdb

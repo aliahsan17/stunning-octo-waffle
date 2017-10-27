@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="2391bccb-7a3c-47dd-bee4-7c59a6b9509d"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		compareData
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CompareData"
+	namespace="DBConnectorExample"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="compareWholeTable"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="7d131253-cea5-4c7e-bf4f-0dda31737e6d">
+				<argument
+				argname="repoItem"
+				id="4e5b6593-eb9d-43dd-9bd6-05b1557a8090">
+					<argvaluetype>
+						<![CDATA[Ranorex.Adapter, Ranorex.Core, Version=5.4.4.26486, Culture=neutral, PublicKeyToken=b798506b574ebc9a]]>
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					sourcename="ItemRecorderEditor"
+					id="1adbf891-1078-445f-b779-16551d850cc7">
+						<path>
+							/dom[@page='HTMLTable.html']/?/?/table
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="filename_ReferenceTableSnapshot"
+				id="b53b5dc9-7947-41ab-a76a-344d008abf59">
+					<argvaluetype>
+						<![CDATA[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]>
+					</argvaluetype>
+					<argvalue>
+						<![CDATA[C:\Users\aahsan\Desktop\DBExample\DBConnectorExample\TableSnapshot.rxsnp]]>
+					</argvalue>
+				</argument>
+				<argument
+				argname="customLogMessageOverall"
+				id="fd7e3494-9f19-4c05-9ce1-8d07a8ffaf8b">
+					<argvaluetype>
+						<![CDATA[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]>
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="customLogMessageDetail"
+				id="d3336a16-db18-4ac6-82b2-7740ef8b7119">
+					<argvaluetype>
+						<![CDATA[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]>
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="DBConnectorExampleRepository"
+	id="ed452fd6-2ec9-430f-b664-a68ba888a584"
+	rxversion="5.4.4.26486"
+	relativepath="DBConnectorExampleRepository.rxrep">
+		<codegen
+		classname="DBConnectorExampleRepository"
+		namespace="DBConnectorExample"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="e0de70b5-dc31-4463-b5aa-5fe475e5b518"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		compareData.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

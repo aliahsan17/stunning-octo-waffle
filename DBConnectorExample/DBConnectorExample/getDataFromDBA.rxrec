@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="b399200c-a3b9-49f9-9395-e0db138ceeb6"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		getDataFromDBA
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GetDataFromDBA"
+	namespace="DBConnectorExample"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="chkGBL"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="255fd91d-0687-4482-b401-1761e9b12630"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="DBConnectorExampleRepository"
+	id="ed452fd6-2ec9-430f-b664-a68ba888a584"
+	rxversion="5.4.4.26486"
+	relativepath="DBConnectorExampleRepository.rxrep">
+		<codegen
+		classname="DBConnectorExampleRepository"
+		namespace="DBConnectorExample"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="e0de70b5-dc31-4463-b5aa-5fe475e5b518"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		getDataFromDBA.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

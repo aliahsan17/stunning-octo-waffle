@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+# Ranorex Studio 5
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConnectorExample", "DBConnectorExample\DBConnectorExample.csproj", "{7337BD0F-E1DF-41DB-AA3E-E8F5E083282C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DBConnectorExample.Converted", "DBConnectorExample.ConvertedToVBNet\DBConnectorExample.Converted.vbproj", "{50C66582-3438-4F89-A285-760127DDC693}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7337BD0F-E1DF-41DB-AA3E-E8F5E083282C}.Debug|x86.Build.0 = Debug|x86
+		{7337BD0F-E1DF-41DB-AA3E-E8F5E083282C}.Debug|x86.ActiveCfg = Debug|x86
+		{7337BD0F-E1DF-41DB-AA3E-E8F5E083282C}.Release|x86.Build.0 = Release|x86
+		{7337BD0F-E1DF-41DB-AA3E-E8F5E083282C}.Release|x86.ActiveCfg = Release|x86
+		{50C66582-3438-4F89-A285-760127DDC693}.Debug|x86.Build.0 = Debug|x86
+		{50C66582-3438-4F89-A285-760127DDC693}.Debug|x86.ActiveCfg = Debug|x86
+		{50C66582-3438-4F89-A285-760127DDC693}.Release|x86.Build.0 = Release|x86
+		{50C66582-3438-4F89-A285-760127DDC693}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

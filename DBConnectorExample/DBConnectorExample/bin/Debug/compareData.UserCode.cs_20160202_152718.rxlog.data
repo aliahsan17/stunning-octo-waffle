@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e7a4eb9de159369"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="aahsan"
+		host="RXLAPTOP108"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="5206x1200"
+		timestamp="2/2/2016 3:27:20 PM"
+		timestampiso="2016-02-02T20:27:20"
+		timeoutfactor="1"
+		module="CompareData">
+		<detail>
+			CompareData
+		</detail>
+		<errmsg>
+			Table could not be created from snapshot
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.780"
+			timeRelativeToTestModuleStartTime="00:00.782"
+			timeWallClock="15:27:21"
+			time="00:00.780"
+			level="Error"
+			category="Module"
+			errimg=".\compareData.UserCode.cs_20160202_152718_ada86b40_trace.jpg"
+			errthumb=".\compareData.UserCode.cs_20160202_152718_ada86b40_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Table could not be created from snapshot
+			</message>
+			<metainfo
+				stacktrace="   at DBConnectorExample.CompareData.compareWholeTable(Adapter repoItem, String filename_ReferenceTableSnapshot, String customLogMessageOverall, String customLogMessageDetail) in c:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample\compareData.UserCode.cs:line 62
+   at DBConnectorExample.CompareData.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample\compareData.cs:line 82
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample\compareData.UserCode.cs"
+				codeline="62"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

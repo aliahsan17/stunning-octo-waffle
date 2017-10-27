@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1881d3fc5bb4f8d7"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="aahsan"
+		host="RXLAPTOP108"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="5206x1200"
+		timestamp="2/2/2016 3:26:38 PM"
+		timestampiso="2016-02-02T20:26:38"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Object reference not set to an instance of an object.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.254"
+			timeRelativeToTestModuleStartTime="00:00.257"
+			timeWallClock="15:26:38"
+			time="00:00.254"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varRow1, SnapShotLocation
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.271"
+			timeRelativeToTestModuleStartTime="00:00.274"
+			timeWallClock="15:26:38"
+			time="00:00.271"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'C:\Users\aahsan\Desktop\DBExample\DBConnectorExample\HTMLTable.html' with browser 'IE' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample\Recording1.cs"
+				codeline="108"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.623"
+			timeRelativeToTestModuleStartTime="00:01.626"
+			timeWallClock="15:26:39"
+			time="00:01.623"
+			level="Info"
+			category="User"
+			errimg=".\Recording120160202_152636_c49638cf_trace.jpg"
+			errthumb=".\Recording120160202_152636_c49638cf_trace_thumb.jpg">
+			<message>
+				This data in DB A 123456 doese not match the data in DB B 78910 in Row : 1
+			</message>
+			<metainfo
+				codefile="c:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample\Recording1.UserCode.cs"
+				codeline="73"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.625"
+			timeRelativeToTestModuleStartTime="00:01.628"
+			timeWallClock="15:26:39"
+			time="00:01.625"
+			level="Info"
+			category="User"
+			errimg=".\Recording120160202_152636_c49638cf_trace.jpg"
+			errthumb=".\Recording120160202_152636_c49638cf_trace_thumb.jpg">
+			<message>
+				Match Found at Row: 2. The data in DB A 123456 matches the data in DB B 123456
+			</message>
+			<metainfo
+				codefile="c:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample\Recording1.UserCode.cs"
+				codeline="67"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.645"
+			timeRelativeToTestModuleStartTime="00:01.648"
+			timeWallClock="15:26:39"
+			time="00:01.645"
+			level="Error"
+			category="Module"
+			errimg=".\Recording120160202_152636_c49638cf_trace.jpg"
+			errthumb=".\Recording120160202_152636_c49638cf_trace_thumb.jpg">
+			<message>
+				Object reference not set to an instance of an object.
+			</message>
+			<metainfo
+				stacktrace="   at DBConnectorExample.Recording1.compareDataFromDBA2B(Adapter argument1, String argument2) in c:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample\Recording1.UserCode.cs:line 69
+   at DBConnectorExample.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample\Recording1.cs:line 112
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\aahsan\Desktop\DBExample\DBConnectorExample\DBConnectorExample\Recording1.UserCode.cs"
+				codeline="69"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

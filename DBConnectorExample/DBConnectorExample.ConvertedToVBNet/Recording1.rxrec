@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="759d5cb4-b746-47b5-8c8e-b822e6c616f0"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="DBConnectorExample"/>
+	<variables>
+		<var
+		name="varRow1"
+		id="ed5f8680-4529-4605-9cd4-cb0f13ed3873">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="compareDataFromDBA2B"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="654ffe87-f17d-4032-8fb6-d78326c9ff6d"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="DBConnectorExampleRepository"
+	id="ed452fd6-2ec9-430f-b664-a68ba888a584"
+	rxversion="5.4.4.26486"
+	relativepath="DBConnectorExampleRepository.rxrep">
+		<codegen
+		classname="DBConnectorExampleRepository"
+		namespace="DBConnectorExample"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="e0de70b5-dc31-4463-b5aa-5fe475e5b518"/>
+	</repository>
+	<usercodefile
+	lang="VBNet">
+		Recording1.UserCode.vb
+	</usercodefile>
+	<references/>
+</recordtable>

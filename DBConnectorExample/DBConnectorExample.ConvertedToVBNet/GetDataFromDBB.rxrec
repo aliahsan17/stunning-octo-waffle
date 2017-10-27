@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="4c5516ee-16f6-44e6-8adf-796162040fc5"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		GetDataFromDBB
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GetDataFromDBB"
+	namespace="DBConnectorExample"/>
+	<variables>
+		<var
+		name="varDBBR"
+		id="b8e1a2c3-b113-472e-a911-f990f19a1a19">
+			2
+		</var>
+		<var
+		name="varDBAR"
+		id="63608d13-ef8c-47f0-aed8-a1b2c0566177">
+			1
+		</var>
+		<var
+		name="varGBL"
+		id="0ca3fbec-0f6e-4d01-b382-35d849fc54fc">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="compDataB2NDb"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="52c0fae7-cfcc-4d4c-b755-d1f89241a5ee"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="DBConnectorExampleRepository"
+	id="ed452fd6-2ec9-430f-b664-a68ba888a584"
+	rxversion="5.4.4.26486"
+	relativepath="DBConnectorExampleRepository.rxrep">
+		<codegen
+		classname="DBConnectorExampleRepository"
+		namespace="DBConnectorExample"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="e0de70b5-dc31-4463-b5aa-5fe475e5b518"/>
+	</repository>
+	<usercodefile
+	lang="VBNet">
+		GetDataFromDBB.UserCode.vb
+	</usercodefile>
+	<references/>
+</recordtable>

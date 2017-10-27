@@ -1,0 +1,149 @@
+﻿<testsuite
+name="DBConnectorExample"
+rxversion="5.4.4.26486"
+id="9b4652b6-379d-4791-be9a-628b9080ff0f"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+ReportTime="RelativeToTestSuiteStartTime"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+TracingScreenshotMode="Foreground"
+TracingScreenshotQuality="40"
+reportlevel="Info;20">
+	<datasources>
+		<dataConnector
+		name="DataBaseA"
+		type="Ranorex.Core.Data.SqlDataConnector"
+		id="6d73e490-177c-493a-9e54-52bda6bf143c"
+		lastknownrowcount="6">
+			<lastknowncolumns>
+				<column>
+					CaseNumber
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns/>
+			<connectionstring>
+				Provider=Microsoft.ACE.OLEDB.12.0;Data Source=&quot;C:\Users\aahsan\Desktop\SQLConn Example\Geisinger_Health_Systems\DatabaseA.accdb&quot;
+			</connectionstring>
+			<query>
+				select CaseNumber From Table1
+			</query>
+			<dialogdatasource>
+				&lt;other&gt;
+			</dialogdatasource>
+			<provider>
+				System.Data.OleDb
+			</provider>
+		</dataConnector>
+		<dataConnector
+		name="DataBaseB"
+		type="Ranorex.Core.Data.SqlDataConnector"
+		id="fdae898a-be24-4337-b446-7cbb59d8f7cb"
+		lastknownrowcount="6">
+			<lastknowncolumns>
+				<column>
+					Casenumber
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns/>
+			<connectionstring>
+				Provider=Microsoft.ACE.OLEDB.12.0;Data Source=&quot;C:\Users\aahsan\Desktop\SQLConn Example\Geisinger_Health_Systems\DatabaseB.accdb&quot;
+			</connectionstring>
+			<query>
+				select Casenumber From Table1
+			</query>
+			<dialogdatasource>
+				&lt;other&gt;
+			</dialogdatasource>
+			<provider>
+				System.Data.OleDb
+			</provider>
+		</dataConnector>
+	</datasources>
+	<content>
+		<testcase
+		name="TestCase"
+		id="4ee55e49-56fd-4caf-903a-1ec57f6fd939">
+			<parameters>
+				<param
+				name="GBLRow1"
+				value=""/>
+			</parameters>
+			<testmodule
+			name="Recording1"
+			id="715e6b06-9d58-48a5-80da-d23acc129788"
+			ref="759d5cb4-b746-47b5-8c8e-b822e6c616f0"
+			type="Recording">
+				<databinding>
+					<var
+					variablename="varRow1"
+					variableid="ed5f8680-4529-4605-9cd4-cb0f13ed3873"
+					dataname="GBLRow1"
+					datasourceid="4ee55e49-56fd-4caf-903a-1ec57f6fd939"/>
+				</databinding>
+			</testmodule>
+			<testmodule
+			name="GetDataFromDBA"
+			id="dc509d1c-bb15-426d-9612-6998082fa76a"
+			ref="b399200c-a3b9-49f9-9395-e0db138ceeb6"
+			type="Recording"/>
+		</testcase>
+		<testcase
+		name="TC1_GetInitialData"
+		id="2d7c34af-ca57-407c-aeba-195c5819a6cc"
+		datasource="DataBaseA">
+			<testcase
+			name="TC2_GetChangedData"
+			id="afb4c000-d435-4ea5-bf9b-ae0b8c006966"
+			datasource="DataBaseB">
+				<testmodule
+				name="GetDataFromDBB"
+				id="afb683cb-0ddd-417d-bed0-645527f48d8f"
+				ref="4c5516ee-16f6-44e6-8adf-796162040fc5"
+				type="Recording">
+					<databinding>
+						<var
+						variablename="varDBBR"
+						variableid="b8e1a2c3-b113-472e-a911-f990f19a1a19"
+						dataname="Casenumber"
+						datasourceid="fdae898a-be24-4337-b446-7cbb59d8f7cb"/>
+						<var
+						variablename="varDBAR"
+						variableid="63608d13-ef8c-47f0-aed8-a1b2c0566177"
+						dataname="CaseNumber"
+						datasourceid="6d73e490-177c-493a-9e54-52bda6bf143c"/>
+					</databinding>
+				</testmodule>
+			</testcase>
+		</testcase>
+		<testcase
+		name="CompareData"
+		id="8d5b9e5a-d5df-47ae-94ad-66642bc45dd0">
+			<testmodule
+			name="CompareData"
+			id="1f75c7d4-9b3a-4222-bada-665b7d55c80d"
+			ref="2391bccb-7a3c-47dd-bee4-7c59a6b9509d"
+			type="Recording"/>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="2d7c34af-ca57-407c-aeba-195c5819a6cc"/>
+			<testcase
+			id="4ee55e49-56fd-4caf-903a-1ec57f6fd939"/>
+			<testcase
+			id="8d5b9e5a-d5df-47ae-94ad-66642bc45dd0"/>
+			<testcase
+			id="9b4652b6-379d-4791-be9a-628b9080ff0f"/>
+			<testcase
+			id="afb4c000-d435-4ea5-bf9b-ae0b8c006966"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuite>

@@ -1,0 +1,18 @@
+﻿<repository
+name="DBConnectorExampleRepository"
+id="ed452fd6-2ec9-430f-b664-a68ba888a584"
+rxversion="5.4.2.25689">
+  <codegen
+  classname="DBConnectorExampleRepository"
+  namespace="DBConnectorExample"/>
+  <rootfolder
+  name="Root"
+  id="e0de70b5-dc31-4463-b5aa-5fe475e5b518"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>
