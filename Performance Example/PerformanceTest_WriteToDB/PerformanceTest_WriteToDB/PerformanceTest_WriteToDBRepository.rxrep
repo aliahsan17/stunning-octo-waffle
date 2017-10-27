@@ -1,0 +1,18 @@
+﻿<repository
+name="PerformanceTest_WriteToDBRepository"
+id="9e14f130-1a17-4fa8-a0ae-38ce45dbdfd6"
+rxversion="5.4.4.26486">
+	<codegen
+	classname="PerformanceTest_WriteToDBRepository"
+	namespace="PerformanceTest_WriteToDB"/>
+	<rootfolder
+	name="Root"
+	id="bd1346f1-943e-4d26-99ae-ee62f09aa83b"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

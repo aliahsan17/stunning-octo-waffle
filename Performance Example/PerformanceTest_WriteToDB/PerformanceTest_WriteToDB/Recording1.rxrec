@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="55f7b928-0d14-455e-a489-760b50a0398d"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="PerformanceTest_WriteToDB"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="startTimer"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="27079cda-f7d3-43b7-8494-0c96ca368694"/>
+		</userrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="10000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="stopTimer"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="4da3ae58-d961-49a2-963b-3dc32b9c1a6e"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="writeResultsToDB"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="182a695a-b08e-48b2-a36d-bc3ab0a936c9"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="PerformanceTest_WriteToDBRepository"
+	id="9e14f130-1a17-4fa8-a0ae-38ce45dbdfd6"
+	rxversion="5.4.4.26486"
+	relativepath="PerformanceTest_WriteToDBRepository.rxrep">
+		<codegen
+		classname="PerformanceTest_WriteToDBRepository"
+		namespace="PerformanceTest_WriteToDB"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="bd1346f1-943e-4d26-99ae-ee62f09aa83b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

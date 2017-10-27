@@ -1,0 +1,36 @@
+﻿<testsuite
+name="PerformanceTest_WriteToDB"
+rxversion="5.4.5.19886"
+id="12aa2fd6-ddb1-4264-90c7-49958fe5ad60"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+ReportTime="RelativeToTestSuiteStartTime"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+TracingScreenshotMode="Foreground"
+TracingScreenshotQuality="40"
+reportlevel="Info;20">
+	<content>
+		<testcase
+		name="PerformanceTest"
+		id="09abbe25-2dbb-4d2c-9849-69ff4dc962e7">
+			<testmodule
+			name="Recording1"
+			id="e59ffe16-f789-4f96-a3f3-d45273b48027"
+			ref="55f7b928-0d14-455e-a489-760b50a0398d"
+			type="Recording"/>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="09abbe25-2dbb-4d2c-9849-69ff4dc962e7"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuite>
