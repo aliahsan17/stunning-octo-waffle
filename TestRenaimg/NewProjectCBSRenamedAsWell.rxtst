@@ -1,0 +1,36 @@
+﻿<testsuite
+name="NewProjectCBSRenamedAsWell"
+rxversion="5.4.4.26486"
+id="d80e130c-5ff9-4e07-a26c-08ba4050f36a"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+ReportTime="RelativeToTestSuiteStartTime"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+TracingScreenshotMode="Foreground"
+TracingScreenshotQuality="40"
+reportlevel="Info;20">
+	<content>
+		<testcase
+		name="TestCase"
+		id="d7495e30-9561-4dd2-8a59-5236c6cb7907">
+			<testmodule
+			name="Recording1"
+			id="da057906-02f6-4701-a0fc-f7c88f97f9db"
+			ref="cc5e24f1-934c-4308-9a11-28783ebf5556"
+			type="Recording"/>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="d7495e30-9561-4dd2-8a59-5236c6cb7907"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuite>

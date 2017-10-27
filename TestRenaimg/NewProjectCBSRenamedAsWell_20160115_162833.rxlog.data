@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="20a722bd31326674"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="aahsan"
+		host="RXLAPTOP108"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="2.0.50727.5485"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="5206x1200"
+		timestamp="1/15/2016 4:28:33 PM"
+		timestampiso="2016-01-15T21:28:33"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="1607ms"
+			durationms="1607"
+			type="test suite"
+			rid="154e986fec556af1"
+			totalerrorcount="0"
+			totalwarningcount="1"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="NewProjectCBSRenamedAsWell"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="1604ms"
+				durationms="1604"
+				type="test case"
+				rid="2966cf3226073f02"
+				totalerrorcount="0"
+				totalwarningcount="1"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="d7495e30-9561-4dd2-8a59-5236c6cb7907"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="1596ms"
+					durationms="1596"
+					type="test module"
+					rid="3a837bb2785b2ac"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Recording1"
+					moduleid="cc5e24f1-934c-4308-9a11-28783ebf5556"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.172"
+						timeRelativeToTestModuleStartTime="00:00.001"
+						timeWallClock="16:28:33"
+						time="00:00.172"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Start' at 8;32.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/button[@text='Start']"
+							fullname="NewProjectCBSRepository.Start.Self"
+							id="1ac47f8606b84df6a7ea12d166534160"
+							timeout="30000"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.857"
+						timeRelativeToTestModuleStartTime="00:00.686"
+						timeWallClock="16:28:34"
+						time="00:00.857"
+						level="Warn"
+						category="WinForms">
+						<message>
+							Failed to load the assemblies containing the definition of this control. UI element identification capabilities for this control are limited. Failed assemblies:<br/>C:\Program Files\paint.net\PaintDotNet.exe<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#c3250<br/>(This message is only shown once per report.)
+						</message>
+						<metainfo
+							loglvl="Warn"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
