@@ -1,0 +1,130 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{BF0DFB7A-42C6-40AA-8C4D-A216D85C363C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RxMobileDemoInCode</RootNamespace>
+    <AssemblyName>RxMobileDemoInCode</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>3d959a7c-5a98-4070-829e-0d1161c0be20</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Uia, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>e7517ac5-e19d-4974-910c-8772be2347d4</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>b3c74cb3-95b2-44ca-8559-be5e34ac228c</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>2a611087-0586-4238-9be8-ab0dce688def</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>edf7a232-8b9b-4eca-801a-d67ba7c502d3</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>2a611087-0586-4238-9be8-ab0dce688def</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9058df3d-312d-421a-ac1f-96300845ec5d</id>
+    </Compile>
+    <Compile Include="RxMiniKeePassRepo.cs">
+      <BoundTo>7B93B79E-DE67-47B0-8735-6072B8FF3064</BoundTo>
+      <DependentUpon>RxMiniKeePassRepo.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>c5ab617e-6fa4-405a-a756-a49b8390ade7</id>
+    </Compile>
+    <Compile Include="RxMiniKeePassSample.cs">
+      <id>6b38b693-3cb1-446e-ae56-9ee8443797c8</id>
+    </Compile>
+    <Compile Include="RxMobileDemoInCodeRepository.cs">
+      <BoundTo>3d959a7c-5a98-4070-829e-0d1161c0be20</BoundTo>
+      <DependentUpon>RxMobileDemoInCodeRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>a6478ae2-0091-4e62-ad78-447e05e343b9</id>
+    </Compile>
+    <None Include="app.config">
+      <id>4caeb1b5-cab5-473a-b511-afa0e0b49080</id>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>3d959a7c-5a98-4070-829e-0d1161c0be20</BoundTo>
+      <id>2a611087-0586-4238-9be8-ab0dce688def</id>
+      <recordtableid>03359c5c-adaa-4c95-ba96-a6d1ae0e7609</recordtableid>
+    </None>
+    <None Include="RxMiniKeePassRepo.rximg">
+      <BoundTo>7B93B79E-DE67-47B0-8735-6072B8FF3064</BoundTo>
+      <DependentUpon>RxMiniKeePassRepo.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>c243d9bf-a129-4beb-82b9-8615132f2920</id>
+    </None>
+    <None Include="RxMiniKeePassRepo.rxrep">
+      <id>7B93B79E-DE67-47B0-8735-6072B8FF3064</id>
+      <repoid>ff96d8b1-12cc-4710-9433-2948d12f5b99</repoid>
+      <reporootid>289cddcd-83dd-4739-ad51-0d209df62da3</reporootid>
+    </None>
+    <None Include="RxMobileDemoInCodeRepository.rximg">
+      <BoundTo>3d959a7c-5a98-4070-829e-0d1161c0be20</BoundTo>
+      <DependentUpon>RxMobileDemoInCodeRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>4d06a77d-2376-43b6-800f-cecef70276c2</id>
+    </None>
+    <None Include="RxMobileDemoInCodeRepository.rxrep">
+      <id>3d959a7c-5a98-4070-829e-0d1161c0be20</id>
+      <repoid>3a87ec20-a9c0-48be-beca-c271f2c56065</repoid>
+      <reporootid>a9244780-65cf-4971-a132-057eebedf710</reporootid>
+    </None>
+    <Content Include="RxMobileDemoInCode.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>c68b0772-b1dd-43cc-ab37-dc48029e3e4f</id>
+    </Content>
+    <Content Include="RxMobileDemoInCode.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>eb51c215-e645-4a3a-8393-44b75a6b0797</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

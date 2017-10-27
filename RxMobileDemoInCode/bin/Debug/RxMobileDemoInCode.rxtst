@@ -1,0 +1,49 @@
+﻿<testsuite
+name="RxMobileDemoInCode"
+rxversion="5.4.3.26106"
+id="c0be42c4-52de-4b5d-ac0c-752ec8f56ef2"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+ReportTime="RelativeToTestSuiteStartTime"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+TracingScreenshotMode="Foreground"
+TracingScreenshotQuality="40"
+reportlevel="Info;20">
+	<parameters>
+		<param
+		name="GBLDeviceName"
+		value="rxiPadmini"/>
+	</parameters>
+	<content>
+		<testcase
+		name="TestCase"
+		id="28c5f0ae-d311-475e-ada8-12dfdadc2033">
+			<testmodule
+			name="RxMiniKeePassSample"
+			id="f6d7be3a-f34b-41ed-b7fe-9e2e4b618309"
+			ref="855c52c1-3531-44ef-a999-619923ccb67d"
+			type="UserCode">
+				<databinding>
+					<var
+					variablename="varDeviceName"
+					variableid="14cc7175-fb92-4c89-bb3c-b469d5056f02"
+					dataname="GBLDeviceName"
+					datasourceid="c0be42c4-52de-4b5d-ac0c-752ec8f56ef2"/>
+				</databinding>
+			</testmodule>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="28c5f0ae-d311-475e-ada8-12dfdadc2033"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuite>

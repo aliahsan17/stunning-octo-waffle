@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ee18e9c0bb9aa20"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="aahsan"
+		host="RXLAPTOP108"
+		rxversion="5.4.3.26106"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="5206x1200"
+		timestamp="12/2/2015 1:43:43 PM"
+		timestampiso="2015-12-02T18:43:43"
+		timeoutfactor="1"
+		module="RxMiniKeePassSample">
+		<detail>
+			RxMiniKeePassSample
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.320"
+			timeRelativeToTestModuleStartTime="00:00.335"
+			timeWallClock="13:43:44"
+			time="00:00.320"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varDeviceName, varGroupName, varTitle, varDatabaseName, varIconIndex
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.348"
+			timeRelativeToTestModuleStartTime="00:00.363"
+			timeWallClock="13:43:44"
+			time="00:00.348"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'ranorex.MiniKeePass' on device from variable $varDeviceName.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="102"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.489"
+			timeRelativeToTestModuleStartTime="00:21.504"
+			timeWallClock="13:44:05"
+			time="00:21.489"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'RanorexMiniKeePass.AddNew' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='ranorex.MiniKeePass']/form/container/toolbar/button[3]"
+				fullname="RxMiniKeePassRepo.RanorexMiniKeePass.AddNew"
+				id="b17fe3ca19384a52ba91533db80ecb33"
+				timeout="60000"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.564"
+			timeRelativeToTestModuleStartTime="00:24.579"
+			timeWallClock="13:44:08"
+			time="00:24.564"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute Text to '$varDatabaseName' on item 'RanorexMiniKeePass.Table.TextDatabaseName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='ranorex.MiniKeePass']/form//table[@accessibilitylabel='Empty list' or @platformclass='UITableView']/container?/cell[1]/container?/text"
+				fullname="RxMiniKeePassRepo.RanorexMiniKeePass.Table.TextDatabaseName"
+				id="2c24014dc47a48359562af90d24bf0e2"
+				timeout="90000"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.180"
+			timeRelativeToTestModuleStartTime="00:26.195"
+			timeWallClock="13:44:10"
+			time="00:26.180"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute Text to '&#9679;&#9679;' on item 'RanorexMiniKeePass.Table.TextPassword'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='ranorex.MiniKeePass']/form//table[@accessibilitylabel='Empty list' or @platformclass='UITableView']/container?/cell[2]/container?/text"
+				fullname="RxMiniKeePassRepo.RanorexMiniKeePass.Table.TextPassword"
+				id="aeec98c443a04861a4fe2f40e157c7f3"
+				timeout="90000"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="116"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.282"
+			timeRelativeToTestModuleStartTime="00:27.297"
+			timeWallClock="13:44:11"
+			time="00:27.282"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute Text to '&#9679;&#9679;' on item 'RanorexMiniKeePass.Table.TextConfirmPassword'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='ranorex.MiniKeePass']/form//table[@accessibilitylabel='Empty list' or @platformclass='UITableView']/container?/cell[3]/container?/text"
+				fullname="RxMiniKeePassRepo.RanorexMiniKeePass.Table.TextConfirmPassword"
+				id="33e5faa05abb47cdbe6a938c2be3c91c"
+				timeout="90000"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="120"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.129"
+			timeRelativeToTestModuleStartTime="00:28.144"
+			timeWallClock="13:44:12"
+			time="00:28.129"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key '{ENTER}' press on 'RanorexMiniKeePass.SomeForm'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='ranorex.MiniKeePass']/form"
+				fullname="RxMiniKeePassRepo.RanorexMiniKeePass.SomeForm"
+				id="8334ae6e1f0547d2975064e44ac65f87"
+				timeout="120000"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="124"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.195"
+			timeRelativeToTestModuleStartTime="00:29.210"
+			timeWallClock="13:44:13"
+			time="00:29.195"
+			level="Info"
+			category="Touch">
+			<message>
+				(Optional Action)<br/>Touch item 'btDone_RootLevel' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='ranorex.MiniKeePass']/form//titlebar/button[@localizationkey='Done']"
+				fullname="RxMiniKeePassRepo.btDone_RootLevel"
+				id="6557c5751ae04bffaccca112096bd696"
+				timeout="8000"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="129"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.275"
+			timeRelativeToTestModuleStartTime="00:37.290"
+			timeWallClock="13:44:21"
+			time="00:37.275"
+			level="Warn"
+			category="Module">
+			<message>
+				(Optional Action) Failed to find item 'RxMiniKeePassRepo.btDone_RootLevel'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="132"
+				loglvl="Warn"
+				id="6557c5751ae04bffaccca112096bd696"
+				path="/mobileapp[@title='ranorex.MiniKeePass']/form//titlebar/button[@localizationkey='Done']"
+				fullname="RxMiniKeePassRepo.btDone_RootLevel"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.283"
+			timeRelativeToTestModuleStartTime="00:37.298"
+			timeWallClock="13:44:21"
+			time="00:37.283"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'RanorexMiniKeePass.RxKdb' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='ranorex.MiniKeePass']/form//table[@accessibilitylabel='Empty list' or @platformclass='UITableView']/?/?/cell//text[@accessibilitylabel~'RanorexMiniKeePass']/.."
+				fullname="RxMiniKeePassRepo.RanorexMiniKeePass.RxKdb"
+				id="cebe497117fd426e95c2058975452190"
+				timeout="60000"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="136"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.267"
+			timeRelativeToTestModuleStartTime="00:38.282"
+			timeWallClock="13:44:22"
+			time="00:38.267"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute Text to '&#9679;&#9679;' on item 'RanorexMiniKeePass.ControllerWrapperTable.SomeText'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='ranorex.MiniKeePass']/form//table[@accessibilitylabel='Empty list' or @platformclass='UITableView']//container[@platformclass='MasterPasswordFieldCell']//cell/?/?//text[@visible='True']"
+				fullname="RxMiniKeePassRepo.RanorexMiniKeePass.ControllerWrapperTable.SomeText"
+				id="b5245eb965264cba9f5e21aeeeee1eb2"
+				timeout="90000"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="140"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.719"
+			timeRelativeToTestModuleStartTime="00:39.734"
+			timeWallClock="13:44:23"
+			time="00:39.719"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 500ms.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="144"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.223"
+			timeRelativeToTestModuleStartTime="00:40.238"
+			timeWallClock="13:44:24"
+			time="00:40.223"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key '{ENTER}' press on 'RanorexMiniKeePass.SomeForm'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='ranorex.MiniKeePass']/form"
+				fullname="RxMiniKeePassRepo.RanorexMiniKeePass.SomeForm"
+				id="8334ae6e1f0547d2975064e44ac65f87"
+				timeout="120000"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="147"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.237"
+			timeRelativeToTestModuleStartTime="00:41.252"
+			timeWallClock="13:44:25"
+			time="00:41.237"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'RanorexMiniKeePass.TitlebarButtons.Files' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='ranorex.MiniKeePass']/form//titlebar/button[@localizationkey='Files']"
+				fullname="RxMiniKeePassRepo.RanorexMiniKeePass.TitlebarButtons.Files"
+				id="40c1987053ee4979b5ace5390c3a5b00"
+				timeout="90000"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="152"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.808"
+			timeRelativeToTestModuleStartTime="00:43.823"
+			timeWallClock="13:44:27"
+			time="00:43.808"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'RanorexMiniKeePass.TitlebarButtons.Edit' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='ranorex.MiniKeePass']/form//titlebar/button[@localizationkey='Edit']"
+				fullname="RxMiniKeePassRepo.RanorexMiniKeePass.TitlebarButtons.Edit"
+				id="acb2be974c8b417baceeb4f18adeede7"
+				timeout="90000"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="156"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.628"
+			timeRelativeToTestModuleStartTime="00:45.643"
+			timeWallClock="13:44:29"
+			time="00:45.628"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'RanorexMiniKeePass.Table.Delete' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='ranorex.MiniKeePass']/form//table[@accessibilitylabel='Empty list' or @platformclass='UITableView']//cell/text[@accessibilitylabel~'RanorexMiniKeePass']/../../button"
+				fullname="RxMiniKeePassRepo.RanorexMiniKeePass.Table.Delete"
+				id="a2613ccbc7984dbb89ecd524d681e2eb"
+				timeout="90000"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="160"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.752"
+			timeRelativeToTestModuleStartTime="00:46.767"
+			timeWallClock="13:44:30"
+			time="00:46.752"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'RanorexMiniKeePass.Table.Delete1' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='ranorex.MiniKeePass']/form//table[@accessibilitylabel='Empty list' or @platformclass='UITableView']//container[@platformclass='UITableViewCellDeleteConfirmationView']//button"
+				fullname="RxMiniKeePassRepo.RanorexMiniKeePass.Table.Delete1"
+				id="6adaa2d3ead14a35b64b2c0327f855cc"
+				timeout="90000"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="164"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.754"
+			timeRelativeToTestModuleStartTime="00:47.769"
+			timeWallClock="13:44:31"
+			time="00:47.754"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'RanorexMiniKeePass'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='ranorex.MiniKeePass']"
+				fullname="RxMiniKeePassRepo.RanorexMiniKeePass.Self"
+				id="7c2393405eef4e558880bb18e9a64c82"
+				timeout="30000"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="169"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

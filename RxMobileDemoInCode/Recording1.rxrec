@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.3.26106"
+id="03359c5c-adaa-4c95-ba96-a6d1ae0e7609"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="RxMobileDemoInCode"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="RxMobileDemoInCodeRepository"
+	id="3a87ec20-a9c0-48be-beca-c271f2c56065"
+	rxversion="5.4.3.26106"
+	relativepath="RxMobileDemoInCodeRepository.rxrep">
+		<codegen
+		classname="RxMobileDemoInCodeRepository"
+		namespace="RxMobileDemoInCode"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="a9244780-65cf-4971-a132-057eebedf710"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

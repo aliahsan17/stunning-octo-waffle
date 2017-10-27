@@ -1,0 +1,18 @@
+﻿<repository
+name="RxMobileDemoInCodeRepository"
+id="3a87ec20-a9c0-48be-beca-c271f2c56065"
+rxversion="5.4.3.26106">
+  <codegen
+  classname="RxMobileDemoInCodeRepository"
+  namespace="RxMobileDemoInCode"/>
+  <rootfolder
+  name="Root"
+  id="a9244780-65cf-4971-a132-057eebedf710"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

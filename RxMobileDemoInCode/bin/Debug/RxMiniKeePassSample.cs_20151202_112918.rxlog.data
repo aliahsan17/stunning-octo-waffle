@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="24.38s"
+		durationms="24378"
+		type="root"
+		rid="25b5b36c2862362"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="aahsan"
+		host="RXLAPTOP108"
+		rxversion="5.4.3.26106"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="5206x1200"
+		timestamp="12/2/2015 11:29:22 AM"
+		timestampiso="2015-12-02T16:29:22"
+		timeoutfactor="1"
+		module="RxMiniKeePassSample">
+		<detail>
+			RxMiniKeePassSample
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.287"
+			timeRelativeToTestModuleStartTime="00:00.288"
+			timeWallClock="11:29:22"
+			time="00:00.287"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varDeviceName, varGroupName, varTitle, varDatabaseName, varIconIndex
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.313"
+			timeRelativeToTestModuleStartTime="00:00.314"
+			timeWallClock="11:29:22"
+			time="00:00.313"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'ranorex.MiniKeePass' on device from variable $varDeviceName.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="102"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.378"
+			timeRelativeToTestModuleStartTime="00:24.379"
+			timeWallClock="11:29:46"
+			time="00:24.378"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

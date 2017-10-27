@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="8481ms"
+		durationms="8481"
+		type="root"
+		rid="172ff3c50c27eac"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="aahsan"
+		host="RXLAPTOP108"
+		rxversion="5.4.3.26106"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="5206x1200"
+		timestamp="12/2/2015 2:31:15 PM"
+		timestampiso="2015-12-02T19:31:15"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="8297ms"
+			durationms="8297"
+			type="test suite"
+			rid="2302b5d0f749d390"
+			totalerrorcount="1"
+			totalwarningcount="1"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="RxMobileDemoInCode"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params>
+				<param
+					name="GBLDeviceName">
+					rxiPadmini
+				</param>
+			</params>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="8285ms"
+				durationms="8285"
+				type="test case"
+				rid="a17b774ab0ff208"
+				totalerrorcount="1"
+				totalwarningcount="1"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="28c5f0ae-d311-475e-ada8-12dfdadc2033"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="8276ms"
+					durationms="8276"
+					type="test module"
+					rid="7d8b90152ddbeee"
+					totalerrorcount="1"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="RxMiniKeePassSample"
+					moduleid="855c52c1-3531-44ef-a999-619923ccb67d"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings>
+						<varbinding
+							name="varDeviceName"
+							value="rxiPadmini"/>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.210"
+						timeRelativeToTestModuleStartTime="00:00.005"
+						timeWallClock="14:31:15"
+						time="00:00.210"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$varDeviceName = 'rxiPadmini'
+						</message>
+						<metainfo
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.280"
+						timeRelativeToTestModuleStartTime="00:00.075"
+						timeWallClock="14:31:16"
+						time="00:00.280"
+						level="Warn"
+						category="Data">
+						<message>
+							The following module variables are not bound to a data column:<br/>varGroupName, varTitle, varDatabaseName, varIconIndex
+						</message>
+						<metainfo
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.358"
+						timeRelativeToTestModuleStartTime="00:00.153"
+						timeWallClock="14:31:16"
+						time="00:00.358"
+						level="Info"
+						category="Application">
+						<message>
+							Run mobile app 'ranorex.MiniKeePass' on device from variable $varDeviceName.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+							codeline="103"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.480"
+						timeRelativeToTestModuleStartTime="00:08.275"
+						timeWallClock="14:31:24"
+						time="00:08.480"
+						level="Error"
+						category="Module">
+						<message>
+							Test run was aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

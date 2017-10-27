@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="27e464911eda211"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="aahsan"
+		host="RXLAPTOP108"
+		rxversion="5.4.3.26106"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="5206x1200"
+		timestamp="12/2/2015 10:25:20 AM"
+		timestampiso="2015-12-02T15:25:20"
+		timeoutfactor="1"
+		module="RxMiniKeePassSample">
+		<detail>
+			RxMiniKeePassSample
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.278"
+			timeRelativeToTestModuleStartTime="00:00.279"
+			timeWallClock="10:25:20"
+			time="00:00.278"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'ranorex.MiniKeePass' on device from variable $varDeviceName.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\RxMiniKeePassSample.cs"
+				codeline="68"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

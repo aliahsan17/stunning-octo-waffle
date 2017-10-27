@@ -1,0 +1,8 @@
+C:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\bin\Debug\RxMobileDemoInCode.rxtmg
+C:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\bin\Debug\RxMobileDemoInCode.rxtst
+C:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\bin\Debug\RxMobileDemoInCode.exe.config
+C:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\bin\Debug\RxMobileDemoInCode.exe
+C:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\bin\Debug\RxMobileDemoInCode.pdb
+C:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\obj\x86\Debug\RxMobileDemoInCode.csprojResolveAssemblyReference.cache
+C:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\obj\x86\Debug\RxMobileDemoInCode.exe
+C:\Users\aahsan\Documents\Ranorex\RanorexStudio Projects\RxMobileDemoInCode\RxMobileDemoInCode\obj\x86\Debug\RxMobileDemoInCode.pdb
